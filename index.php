@@ -14,8 +14,13 @@
 
 <body>
     <div class="jumbotron text-center" style="margin-bottom:0%">
+        <abbr title="test title">test   line text</abbr>
         <h1> برنامه تستی </h1>
         <p>متن تستی رسپانسیو </p>
+        <blockquote class="blockquote"> test </blockquote>
+        <footer class="blockquote-footer"> testtttt </footer>
+        <dl> 
+            <dd>test </dd> </dl>
     </div>
     <nav class="navbar navbar-expand-md bg-success navbar-dark">
         <a class="navbar-brand" href="#">خانه</a>
@@ -34,11 +39,11 @@
         </div>
 
     </nav>
-    <div class="container" style="margin-top:30px">
+    <div class="container-fluid bg-info" style="margin-top:30px">
         <div class="row">
             <div class="col-md-4">
                 <h2> تست</h2>
-                <h5>تستی</h5>
+                <h5 class="bg-success text-danger">تستی</h5>
                 <div class="fakeimg">Fake Image</div>
                 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
                 <h3>Some Links</h3>
@@ -66,7 +71,7 @@
                 <p> متن تستی </p>
                 <p> متن تستی </p>
                 <p> متن تستی </p>
-                
+
             </div>
             <div class="col-md-4 text-center">
                 <div class="form-group">
