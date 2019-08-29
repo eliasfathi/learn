@@ -13,14 +13,17 @@
 </head>
 
 <body>
+
+
     <div class="jumbotron text-center" style="margin-bottom:0%">
-        <abbr title="test title">test   line text</abbr>
+        <abbr title="test title">test line text</abbr>
         <h1> برنامه تستی </h1>
         <p>متن تستی رسپانسیو </p>
         <blockquote class="blockquote"> test </blockquote>
         <footer class="blockquote-footer"> testtttt </footer>
-        <dl> 
-            <dd>test </dd> </dl>
+        <dl>
+            <dd>test </dd>
+        </dl>
     </div>
     <nav class="navbar navbar-expand-md bg-success navbar-dark">
         <a class="navbar-brand" href="#">خانه</a>
@@ -83,6 +86,35 @@
                     <input type="password" class="form-control" id="pwd">
                 </div>
                 <button type="button" class="btn btn-info">ورود</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>col1</th>
+                            <th>col2</th>
+                            <th>col3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary text-success">
+                            <td>data1</td>
+                            <td>data1</td>
+                            <td>data1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+
+                <button class="btn btn-primary">
+                    <span class="spinner-border spinner-border-md"></span>
+                    در حال بارگزاری...
+                </button>
             </div>
         </div>
     </div>
