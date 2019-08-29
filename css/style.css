@@ -1,0 +1,75 @@
+﻿@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"), url('../fonts/Yekan.woff') format("woff"), url('../fonts/Yekan.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"), url('../fonts/Yekan.woff') format("woff"), url('../fonts/Yekan.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: yekan;
+    direction: rtl;
+    background-color: #fff;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+    font-family: yekan;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+a {
+    background: green;
+    color: #fff;
+    padding: 2px 10px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a:last-child {
+    margin-right: 5px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mainbox {
+    background: #F7F7F7 none repeat scroll 0% 0%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 2em;
+}
