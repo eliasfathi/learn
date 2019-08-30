@@ -13,35 +13,6 @@
 </head>
 
 <body>
-
-
-    <div class="jumbotron text-center" style="margin-bottom:0%">
-        <abbr title="test title">test line text</abbr>
-        <h1> برنامه تستی </h1>
-        <p>متن تستی رسپانسیو </p>
-        <blockquote class="blockquote"> test </blockquote>
-        <footer class="blockquote-footer"> testtttt </footer>
-        <dl>
-            <dd>test </dd>
-        </dl>
-    </div>
-    <nav class="navbar navbar-expand-md bg-success navbar-dark">
-        <a class="navbar-brand" href="#">خانه</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggle-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">منوی 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">منوی 1</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
     <div class="container-fluid bg-info" style="margin-top:30px">
         <div class="row">
             <div class="col-md-4">
@@ -92,28 +63,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <table class="table table-bordered">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>col1</th>
-                            <th>col2</th>
-                            <th>col3</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table-primary text-success">
-                            <td>data1</td>
-                            <td>data1</td>
-                            <td>data1</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"> sfffasefsff</li>
+                    <li class="list-group-item avtive"> fqeqeqweqweqwe</li>
+                    <a href="#" class="list-group-item list-group-item-action">First item</a>
+                </ul>
             </div>
-            <div class="col-md-6">
 
+
+            <div class="col-md-6">
                 <button class="btn btn-primary">
-                    <span class="spinner-border spinner-border-md"></span>
-                    در حال بارگزاری...
+                    <span class="spinner-border spinner-border-sm"></span>
+                    Loading..
                 </button>
             </div>
         </div>
